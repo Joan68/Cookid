@@ -10,6 +10,8 @@ import { AskingnameComponent } from './askingname/askingname.component';
 import { WelcomeComponent } from './welcome/welcome.component';
 import { RecipeListComponent } from './recipe-list/recipe-list.component';
 import { RecipeComponent } from './recipe/recipe.component';
+
+
 import { FormsModule } from '@angular/forms';
 
 @NgModule({
