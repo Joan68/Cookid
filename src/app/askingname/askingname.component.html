@@ -1,14 +1,18 @@
 <section>
-    <div class="container">
-        <div class="d-flex align-items-center d-flex justify-content-center">
-            <div class="row mt-5">
-                <div class="col-md-12 mb-3">
-                    <img src="assets/askingname.PNG" class="img-fluid mtFromNav" alt="Responsive image">
-                </div>
-            </div>
+  <div class="container">
+    <div class="d-flex align-items-center d-flex justify-content-center">
+      <div class="row mt-5">
+        <div class="col-md-12 mb-3">
+          <img src="assets/askingname.PNG" class="img-fluid mtFromNav" alt="Responsive image">
         </div>
-            <input #box (keyup.enter)="onEnter(box.value)"><p>{{value}}</p>
-            <img src="assets/bananaaskingname.PNG" class="img-fluid mx-auto d-block" alt="Responsive image">
-            <button mdbBtn outline="true" rounded="true" block="true" class="formbutton my-4 waves-effect z-depth-0 blue" mdbWavesEffect type="submit" (click)="onEnter(box.value)" [routerLink]="['/welcome']">C'est parti !</button>
+      </div>
     </div>
+    <div class="mx-auto">
+      <input style="width: 100%;" #box (keyup.enter)="onEnter(box.value)">
+      <img src="assets/bananaaskingname.PNG" class="img-fluid  d-block" alt="Responsive image">
+      <button mdbBtn outline="true" rounded="true" block="true" class="formbutton my-4 waves-effect z-depth-0 blue"
+              mdbWavesEffect type="submit" (click)="onEnter(box.value)" [routerLink]="['/welcome']">C'est parti !
+      </button>
+    </div>
+  </div>
 </section>
