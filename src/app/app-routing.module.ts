@@ -6,7 +6,7 @@ import { AskingnameComponent } from './askingname/askingname.component';
 
 
 const routes: Routes = [
-  { path: 'first', component: FirstPageComponent },
+  { path: '', component: FirstPageComponent },
   { path: 'askingname', component: AskingnameComponent },
 ];
 
