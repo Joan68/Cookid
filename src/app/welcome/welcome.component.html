@@ -1,12 +1,23 @@
 <section>
-    <div class="container">
-        <div class="d-flex align-items-center d-flex justify-content-center">
-            <div class="row mt-5">
-                <div class="col-md-12 mb-3">
-                    <img src="assets/chooseFood.PNG" class="img-fluid mtFromNav" alt="Responsive image">
-                </div>
-            </div>
-          <button type="button" mdbBtn class="blue" mdbWavesEffect [routerLink]="['/askingname']">Clique pour commencer</button>
+  <div class="container">
+    <div class="d-flex align-items-center d-flex justify-content-center">
+      <div class="row mt-5">
+        <h2 class="mt-4 mx-auto">Bienvenue Lucas</h2>
+        <div class="col-md-12 mb-3">
+          <img src="assets/chooseFood.PNG" class="img-fluid" alt="Responsive image">
         </div>
+      </div>
+
     </div>
+  </div>
+
 </section>
+<div class="d-flex align-items-center d-flex justify-content-center">
+  <button type="button" mdbBtn class="blue" mdbWavesEffect [routerLink]="['/recipe-list']">Plat
+  </button>
+
+  <button type="button" mdbBtn class="blue" mdbWavesEffect [routerLink]="['/recipe-list']">Dessert
+  </button>
+  <button type="button" mdbBtn class="blue" mdbWavesEffect [routerLink]="['/recipe-list']">Tout
+  </button>
+</div>
