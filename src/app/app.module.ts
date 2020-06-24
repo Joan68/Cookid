@@ -7,13 +7,19 @@ import { AppComponent } from './app.component';
 import { NavbarComponent } from './navbar/navbar.component';
 import { FirstPageComponent } from './first-page/first-page.component';
 import { AskingnameComponent } from './askingname/askingname.component';
+import { WelcomeComponent } from './welcome/welcome.component';
+import { RecipeListComponent } from './recipe-list/recipe-list.component';
+import { RecipeComponent } from './recipe/recipe.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     NavbarComponent,
     FirstPageComponent,
-    AskingnameComponent
+    AskingnameComponent,
+    WelcomeComponent,
+    RecipeListComponent,
+    RecipeComponent
   ],
   imports: [
     BrowserModule,
