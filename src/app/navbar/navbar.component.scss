@@ -1,7 +1,12 @@
 .navbar-brand, li {
-    color: #FDD952;
+  color: #FDD952;
 }
 
-a {
-    font-size: 25px;
+.title-size {
+  font-size: 25px;
+}
+
+li, ul {
+  color: black;
+  background-color: #FDD952;
 }

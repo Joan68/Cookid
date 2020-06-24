@@ -1,17 +1,32 @@
 <mdb-navbar SideClass="navbar navbar-expand-lg navbar-dark blue ie-nav fixed-top" [containerInside]="false">
-    <mdb-navbar-brand>
-        <a class="logo navbar-brand" href="#"><strong>COOKID</strong></a>
-    </mdb-navbar-brand>
-    <links>
-        <ul class="navbar-nav nav-flex-icons ml-auto">
-            <li class="nav-item waves-light" mdbWavesEffect>
-                <form class="form-inline md-form form-sm waves-light" mdbWavesEffect>
-                    <mdb-icon fas icon="search" size="2x" aria-hidden="true"></mdb-icon>
-                    <div class="md-form my-0">
-                        <input class="form-control mr-sm-2" type="text" placeholder="Search">
-                    </div>
-                </form>
-            </li>
-        </ul>
-    </links>
+  <mdb-navbar-brand>
+    <a class="logo navbar-brand title-size" href="#"><strong>COOKID</strong></a>
+  </mdb-navbar-brand>
+  <links>
+    <ul class="navbar-nav mr-auto">
+      <!-- Dropdown -->
+      <li class="nav-item dropdown text-dark" dropdown>
+        <a dropdownToggle mdbWavesEffect type="button" class="nav-link dropdown-toggle waves-light" mdbWavesEffect>
+          les recettes<span class="caret"></span></a>
+        <div *dropdownMenu class="dropdown-menu dropdown dropdown-primary" role="menu">
+          <a class="dropdown-item waves-light" mdbWavesEffect href="#">Plat</a>
+          <div class="divider dropdown-divider"></div>
+          <a class="dropdown-item waves-light" mdbWavesEffect href="#">Dessert</a>
+          <div class="divider dropdown-divider"></div>
+          <a class="dropdown-item waves-light" mdbWavesEffect href="#">Tout</a>
+        </div>
+      </li>
+
+    </ul>
+    <ul class="navbar-nav nav-flex-icons ml-auto">
+      <li class="nav-item waves-light" mdbWavesEffect>
+        <form class="form-inline md-form form-sm waves-light" mdbWavesEffect>
+          <mdb-icon fas icon="search" size="2x" aria-hidden="true"></mdb-icon>
+          <div class="md-form my-0">
+            <input class="form-control mr-sm-2" type="text" placeholder="Cherche une recette">
+          </div>
+        </form>
+      </li>
+    </ul>
+  </links>
 </mdb-navbar>

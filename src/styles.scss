@@ -1,21 +1,33 @@
 /* You can add global styles to this file, and also import other style files */
 
 .blue {
-    background-color: #0c85a2 !important;
-}
-@font-face {
-    font-family: "THE MINION";
-    src: url("THE MINION.ttf");
+  background-color: #0c85a2 !important;
 }
 
-a, h1, h2, h3, p, ul, button  {
-    font-family: "THE MINION", Arial, serif;
+@font-face {
+  font-family: "THE MINION";
+  src: url("THE MINION.ttf");
+}
+
+a, h1, h2, h3, p, ul, button {
+  font-family: "THE MINION", Arial, serif;
 }
 
 body {
-    background-color: #e8eff2;
+  background-color: #e8eff2;
 }
 
 .mtFromNav {
-    margin-top: 50px;
+  margin-top: 50px;
 }
+
+li, ul {
+  background-color: #FDD952;
+  padding: 0px 10px 0px 10px;
+}
+
+a.nav-link, ::placeholder, input, .md-form {
+  color: black !important;
+}
+
+
