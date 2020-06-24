@@ -5,7 +5,7 @@ import { FirstPageComponent } from './first-page/first-page.component';
 
 
 const routes: Routes = [
-  { path: 'first', component: FirstPageComponent },
+  { path: '', component: FirstPageComponent },
 ];
 
 @NgModule({
