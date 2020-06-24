@@ -1,5 +1,14 @@
 /* You can add global styles to this file, and also import other style files */
 
 .blue {
-    background-color: #0C85A2!important;
+    background-color: #0c85a2 !important;
+}
+
+@font-face {
+    font-family: "THE MINION";
+    src: url("THE MINION.ttf");
+}
+
+a, h1, h2, h3, p, ul  {
+    font-family: "THE MINION", Arial, serif;
 }
