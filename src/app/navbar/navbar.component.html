@@ -1,6 +1,6 @@
 <mdb-navbar SideClass="navbar navbar-expand-lg navbar-dark blue ie-nav fixed-top" [containerInside]="false">
   <mdb-navbar-brand>
-    <a class="logo navbar-brand title-size" href="#"><strong>COOKID</strong></a>
+    <a class="logo navbar-brand title-size" [routerLink]="['']"><strong>COOKID</strong></a>
   </mdb-navbar-brand>
   <links>
     <ul class="navbar-nav mr-auto">
@@ -9,11 +9,11 @@
         <a dropdownToggle mdbWavesEffect type="button" class="nav-link dropdown-toggle waves-light" mdbWavesEffect>
           les recettes<span class="caret"></span></a>
         <div *dropdownMenu class="dropdown-menu dropdown dropdown-primary" role="menu">
-          <a class="dropdown-item waves-light" mdbWavesEffect href="#">Plat</a>
+          <a class="dropdown-item waves-light" mdbWavesEffect [routerLink]="['recipe-list']">Plat</a>
           <div class="divider dropdown-divider"></div>
-          <a class="dropdown-item waves-light" mdbWavesEffect href="#">Dessert</a>
+          <a class="dropdown-item waves-light" mdbWavesEffect [routerLink]="['recipe-list']">Dessert</a>
           <div class="divider dropdown-divider"></div>
-          <a class="dropdown-item waves-light" mdbWavesEffect href="#">Tout</a>
+          <a class="dropdown-item waves-light" mdbWavesEffect [routerLink]="['recipe-list']">Tout</a>
         </div>
       </li>
 
