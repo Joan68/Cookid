@@ -1,0 +1,33 @@
+.recipe-list-title {
+  background-color: #FDD952;
+  border: solid 3px #0c85a2;
+  color: #0c85a2;
+  width: 100%;
+  text-align: center;
+  text-decoration: underline;
+  text-decoration-color: #0c85a2;
+  padding: 0px 2px 5px 2px;
+}
+
+.strong {
+  font-weight: bold !important;
+}
+
+p, ul, li {
+  font-size: 1.4rem;
+  font-family: Arial, serif !important;
+}
+
+.numberCircle {
+  width: 40px;
+  line-height: 40px;
+  border-radius: 50%;
+  text-align: center;
+  font-size: 32px;
+  border: 2px solid #666;
+  background-color: white;
+}
+
+.inline {
+  display: inline;
+}
